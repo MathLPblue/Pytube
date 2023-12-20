@@ -10,8 +10,7 @@ def baixar_video():
 
 
  print('Título: ', yt.title)
- print('Visualizações:', yt.views)
-
+ 
  yd = yt.streams.get_highest_resolution()
  yd.download('Pasta download') #inserir pasta para download aqui
 
